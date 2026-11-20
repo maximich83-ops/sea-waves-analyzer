@@ -136,7 +136,6 @@ sea-waves-analyzer/
 ├── main_test.go         # тести CLI через io.Writer і тестове джерело даних
 ├── go.mod / go.sum
 └── analyzer/            # предметна логіка, не залежить від CLI
-    ├── doc.go           # опис пакета
     ├── validate.go      # межі домену, помилки, перевірка count / subject / limit
     ├── category.go      # тип WaveCategory, Classify, CategoryCount, підрахунок категорій
     ├── series.go        # тип WaveSeries: конструктор з інваріантами, FirstAbove, Analyze
