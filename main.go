@@ -249,7 +249,7 @@ func printUsage(w io.Writer) {
 
 func printAnalyzeUsage(w io.Writer) {
 	fmt.Fprintf(w, `Використання:
-  %s analyze --count N --subject НАЗВА [--seed S]
+  %s analyze --count N --subject НАЗВА [--seed S] [--limit H]
 
 Прапорці:
   --count N        кількість значень, від %d до %d (обов'язковий)
